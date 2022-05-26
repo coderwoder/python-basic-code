@@ -69,8 +69,8 @@
 # f1.sort()
 # print(f1)
 
-# a = [12, 32, 0, 43, 54, 48, 0]
-# print(sum(a)) without loop
+# a = [12, 32]
+# print(sum(a))  # without loop
 
 # with loop
 # n = len(a)
@@ -177,3 +177,79 @@
 # for i in range(len(a)):
 #     dictnarys[a[i]] = b[i]
 # print(dictnarys)
+
+
+# --------------------------------------
+
+# a=[3,1,5,6]
+# IF AND ELSE
+# a = []
+# for x in range(4):
+#     n = input()
+#     a.append(n)
+
+# for x in range(len(a)):
+#     if(a[0] < a[x]):
+#         a[0] = a[x]
+
+# print(a[0])
+
+
+# num = int(input("Enter your Number of subjects:"))
+# a = []  # Input
+# for x in range(num):
+#     n = int(input())
+#     a.append(n)
+
+# sum = sum(a)  # for total
+# sum = sum*100/(100*num)
+
+# allsub = []  # for each subject
+# for x in range(len(a)):
+#     temp = (a[x]*100)/100
+#     allsub.append(temp)
+
+# for x in range(len(a)):
+#     print("The percentage of the ", x, "subject is:\n", allsub[x])
+
+# print("\n The total percentage is :", round(sum, 2), "%")
+
+
+# Userin = input("Enter your username: ")
+# if(len(Userin) <= 10):
+#     print("This is a valid username")
+# elif(len(Userin) == 3):
+#     print("Are you for real")
+# else:
+#     print("Too long for username")
+
+# text = input("Enter your comments\n")
+# a = ["make a lot of money", "buy now", "click this"]
+# spam = False
+
+# for x in range(len(a)):
+#     if(a[x] in text):
+#         spam = True
+#         break
+#     else:
+#         spam = False
+
+# if(spam):
+#     print("Your comment has a spam message")
+# else:
+#     print("Your comment is being posted")
+
+# comments = input(f"who are you?\n")  # formatting strings with 'f'
+# list = ["dad", "mom", "brother", "sister", "relative"]
+# check = False
+# for x in range(len(comments)):
+
+#     if(list[x] in comments):
+#         check = True
+#         break
+#     else:
+#         check = False
+# if(check):
+#     print("You can enter:")
+# else:
+#     print("You Unknown identity")
