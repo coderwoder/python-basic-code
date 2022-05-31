@@ -53,19 +53,19 @@ n = int(input("Enter The Number"))
 #         print("*", end=' ')
 #     print()
 
-for x in range(0, n-1):
-    for y in range(x, n):
-        print(" ", end=' ')
-    for y in range(x):
-        print("*", end=' ')
-    for y in range(x+1):
-        print("*", end=' ')
-    print()
-for x in range(0, n):
-    for y in range(x+1):
-        print(" ", end=' ')
-    for y in range(x, n-1):
-        print("*", end=' ')
-    for y in range(x, n):
-        print("*", end=' ')
-    print()
+# for x in range(0, n-1):
+#     for y in range(x, n):
+#         print(" ", end=' ')
+#     for y in range(x):
+#         print("*", end=' ')
+#     for y in range(x+1):
+#         print("*", end=' ')
+#     print()
+# for x in range(0, n):
+#     for y in range(x+1):
+#         print(" ", end=' ')
+#     for y in range(x, n-1):
+#         print("*", end=' ')
+#     for y in range(x, n):
+#         print("*", end=' ')
+#     print()
