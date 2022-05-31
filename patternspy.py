@@ -36,6 +36,7 @@ n = int(input("Enter The Number"))
 #         print("*", end=' ')
 #     print()
 
+#reverse and upright hill
 # for x in range(0, n):
 #     for y in range(x+1):
 #         print(" ", end=' ')
@@ -53,6 +54,7 @@ n = int(input("Enter The Number"))
 #         print("*", end=' ')
 #     print()
 
+#diamond
 # for x in range(0, n-1):
 #     for y in range(x, n):
 #         print(" ", end=' ')
