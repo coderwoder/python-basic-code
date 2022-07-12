@@ -1,4 +1,4 @@
-# TEST
+# QUESTION SOLVING
 
 # letter = '''\nDear,|name|
 # Greetings from Abc  ,
@@ -181,8 +181,9 @@
 
 # --------------------------------------
 
-# a=[3,1,5,6]
 # IF AND ELSE
+
+# a=[3,1,5,6]
 # a = []
 # for x in range(4):
 #     n = input()
@@ -253,3 +254,118 @@
 #     print("You can enter:")
 # else:
 #     print("You Unknown identity")
+
+
+# --------------------------------------
+
+
+# LOOPS
+
+
+# n = int(input("Enter The Number"))
+# for x in range(1, 11):
+#     print(n, "X", x, "=", n*x, "\n")
+
+# l1 = ["Hair", "Eyes", "Brain", "Blood", "Brain tumor"]
+# for x in range(len(l1)):
+#     if(l1[x][0] == 'E'):
+#         print("Greet", l1[x], "\n")
+
+# x = 1
+# while x <= 10:
+#     print(n, "X", x, "=", n*x, "\n")
+#     x += 1
+
+# if(n % 2 == 0):
+#     print("Not Prime")
+# else:
+#     print("Prime")
+
+# li = []
+# x = 1
+# while x <= n:
+#     li.append(x)
+#     x += 1
+# sum = sum(li)
+# print(sum)
+
+# fact = 1
+# for x in range(1, n+1):
+#     fact = fact*x
+# print("Factorial is :", fact)
+
+
+# for x in range(1, n):
+# /// |-
+# /// |--
+#     for y in range(x):
+#         print("x", end=' ')
+#     print()
+
+# for x in range(n):
+# /// |--
+# /// |-
+#    for y in range(x, n):
+#         print("x", end=' ')
+#     print()
+
+
+# --------------------------------------
+
+
+# Functions and Recursions
+
+
+# def func(a, b, c):
+#     if(a > b) and (a > c):#important
+#         max = a
+#     elif(b > c):
+#         max = b
+#     else:
+#         max = c
+#     return max
+
+# print(func(11, 12, 1))
+
+
+# def convo(a):
+#     if a[1] in ['f', 'F']:  # NEW
+#         celc = (int(a[0]) - 32) * 5/9
+#         print(celc)
+#     elif a[1] in ['c', 'C']:
+#         fahr = (int(a[0]) * 9/5) + 32
+#         print(fahr)
+
+# b = []
+# # Input for one line
+# b = input('Enter your value with degree eg: 123 F -').split()
+# convo(b)
+
+
+# --------------------------------------
+
+
+# Recursion
+
+
+# m = int(input("number of terms you want to see "))
+# FAB WITH REC
+# def rec(n):
+#     if n == 0:  # if number entered is zero
+#         return 0
+#     elif n in [1, 2]:
+#         return 1
+#     else:
+#         return rec(n-1)+rec(n-2)
+
+# print(rec(m)) FOR PRINTING THE DIRECT ANS
+# for i in range(m):
+#    print(rec(i), end=' ,')  #keep on passing and print answer from 1 to mth value
+
+# SUM OF NUMBERS
+# def sum(num):
+#     if num <= 1:
+#         return num
+#     else:
+#         return num+sum(num-1)
+# print(sum(m))
