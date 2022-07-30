@@ -24,19 +24,28 @@
 
 # list
 
-# l1=[1,2,0]
+# l1 = [1, 2, 0]
+
 # l1.sort()
 # l1.reverse()
-# l1.append(2.79)
+
+# l1.append(2.79)  # Append(adds) The number from The end of the list
+# l1.extend(123) #Extend adds each element to the list as an individual element.
+# The new length of the list is incremented by the number of elements added.
+
 # l1.insert(0,"Ready")
 # l2=len(l1)
 # print(l1[:-1])
-# l1.pop(2)
+# l1.count() #Returns the number of elements with the specified value.
+# del l1[1]  # deletes the element at index 1
+# l1.pop(2)  # Removes & Returns the last element from the list
 # l2=l1.pop(1)
 # print(l2)
-# l1.remove(0)
+# l1.remove(0) #Removes the element passed to this method
 # print(l1)
 
+# li = input().strip()  #removes useless whitespaces
+# li = input().splits() #splits them into sub strings
 
 # tuple
 
@@ -104,6 +113,9 @@
 #     1: 2
 # }
 
+# def sort(): #sorting dictionary  by values
+#     sortedbyascending = sorted(dictu.items(), key=lambda t: t[1])
+#     print(sortedbyascending)
 
 # print(list(mynary.keys()))
 # print(mynary.values())
@@ -113,6 +125,7 @@
 #     3: 4,
 #     "slow": "hump"
 # }
+# mynary = update01 | mynary #addding two or more dictionaries together
 # mynary.update(update01)
 # print(mynary)
 # print(mynary["fast2"])  # throws error
