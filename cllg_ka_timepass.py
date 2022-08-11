@@ -149,3 +149,40 @@
 # print("Enter a set of characters called as string, Of Your Choice : ")
 # in_str = input()
 # print(firchar(in_str))
+
+# def com(li1, li2):
+#     return any(check in li1 for check in li2)
+
+
+# print("Enter your First list members")
+# li1 = list(input().split())
+# print("Enter your Second list members")
+# li2 = list(input().split())
+# # com(li1, li2)
+# print(com(li1, li2))
+
+def desiredindex(inp):
+    if len(inp) < 7:
+        print("NOTTTT LLLEEESSS TTHHAAN 7 seven santh...")
+    else:
+        newinp = []
+        for rem_ele in range(len(inp)):
+            if rem_ele not in li:
+                newinp.append(inp[rem_ele])  # VERY IMPORTANT!!!
+        return newinp
+
+
+li = [0, 2, 4, 5]
+print("Enter your desired list members not less than 7")
+inp = list(input().split())
+print(desiredindex(inp)) if desiredindex(inp) != None else quit()
+
+# def clone(inpli):
+#     cloneli = []
+#     for i in inpli:
+#         cloneli.append(i)
+#     return cloneli
+
+# print("Enter the list you want to clone")
+# inp = list(input().split())
+# print("Your clone is here", clone(inp))
